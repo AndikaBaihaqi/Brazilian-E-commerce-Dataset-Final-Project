@@ -20,29 +20,18 @@ Merumuskan cara untuk meningkatkan suatu bisnis serta memberikan layanan yang le
 ## Analytic Approach
 Membangun prediksi "tool" dan menganalisis dataset yang diberikan dengan mengklasifikasikan review score kedalam review negatif atau review positif, yang nantinya berguna untuk membantu seller meningkatkan penjualan dengan review yang baik, tentunya akan membantu calon pembeli yakin untuk membeli pada toko yang memiliki review terbaik.
 
-Untuk studi kasus ini, saya mengambil dataset yang diberikan oleh Olist, yang merupakan platform e-commerce di Brazil. Olist menghubungkan bisnis kecil di seluruh Brasil ke pelanggan dengan satu kontrak. Olist telah memberikan lebih dari 100 ribu informasi pesanan yang ditempatkan antara 2016 hingga 2018. Mirip dengan semua platform e-commerce lainnya, Olist juga mengirimkan formulir umpan balik kepada pelanggan setelah perkiraan tanggal pengiriman untuk mendapatkan ulasan dan peringkat. Sekarang, Olist
 
-**CREDITS**:- Kaggle
+**Prediksi kepuasan pelanggan (0 untuk negatif dan 1 untuk positif) dari pembelian dari situs e-commerce brazilian Olist.**
 
-**Predict Customer satisfaction (0 for negative and 1 for postive) of the purhase from the brazilain e-commerce site Olist.**
+## ML formulation of business problem:
+Untuk pesanan tertentu, kita perlu memprediksi skor kepuasan pelanggan mengingat fitur-fiturnya yang berbeda seperti harga, deskripsi barang, pengiriman tepat waktu, status pengiriman, dll. Masalah yang diberikan adalah **Masalah Klasifikasi Biner** karena masalah tersebut akan mengembalikan skor ulasan pelanggan atas pesanan sebagai 0 atau 1.
 
-## Mapping the real world problem to a Machine Learning Problem
-### Type of Machine Learning Problem:
-
-For a given order, we need to predict the customer satisfaction score given its different features like price, item description, on time delivery, delivery status etc. 
-The given problem is a **Binary Classification Problem** as it will return the customer review score of an order as either 0 or 1.
-
-#### Performance metric: F1-score
-#### Real world/Business Objectives and Constraints
-  1. Minimize False positive rate.
-  2. No strict latency concerns.
-  3. Interpretability is important.
 
 ## Data
 ### Data Overview:
-**Source**:- https://www.kaggle.com/olistbr/brazilian-ecommerce
+**Sumber**:- https://www.kaggle.com/olistbr/brazilian-ecommerce
 
-The data is divided in multiple datasets for better understanding and organization. Please refer to the following data schema when working with it:
+Skema dari pengaturan dan pengumpulan data dapat dilihat pada gambar di bawah ini:
 <img src="https://i.imgur.com/HRhd2Y0.png" />
 
 ### Data Description:
@@ -67,5 +56,3 @@ Translates the productcategoryname to english.
 
 **Input features**:- order_id,price,freight_value,product_photos_qty,product_weight_g etc.
 **Target Variable**:- review_score
-
-We will build various supervised machine learning classification models and see which succeeds in solving the given mapping between the input variables and the review feature in the best way. Let’s see each step in detail.
