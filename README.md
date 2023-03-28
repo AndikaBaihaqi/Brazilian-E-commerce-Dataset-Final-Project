@@ -35,23 +35,23 @@ Untuk pesanan tertentu, kita perlu memprediksi skor kepuasan pelanggan mengingat
 
 ### Data Description:
 * **Customers Dataset**:-
-This dataset has information about the customer and its location. Use it to identify unique customers in the orders dataset and to find the orders delivery location.
+Dataset ini memiliki informasi tentang pelanggan dan lokasinya. Gunakan untuk mengidentifikasi pelanggan unik dalam kumpulan data pesanan dan untuk menemukan lokasi pengiriman pesanan.
 * **Geolocation Dataset**:-
-This dataset has information Brazilian zip codes and its lat/lng coordinates. Use it to plot maps and find distances between sellers and customers.
+Kumpulan data ini memiliki informasi kode pos Brasil dan koordinat lintang/bujurnya. Gunakan untuk memplot peta dan menemukan jarak antara penjual dan pelanggan.
 * **Order Items Dataset**:-
-This dataset includes data about the items purchased within each order.
+Kumpulan data ini mencakup data tentang item yang dibeli dalam setiap pesanan.
 * **Payments Dataset**:-
-This dataset includes data about the orders payment options.
+Kumpulan data ini mencakup data tentang opsi pembayaran pesanan.
 * **Order Reviews Dataset**:-
-This dataset includes data about the reviews made by the customers.
+Kumpulan data ini mencakup data tentang ulasan yang dibuat oleh pelanggan.
 * **Order Dataset**:-
-This is the core dataset. From each order you might find all other information.
+Ini adalah kumpulan data inti. Dari setiap pesanan Anda mungkin menemukan semua informasi lainnya.
 * **Products Dataset**:-
-This dataset includes data about the products sold by Olist.
+Kumpulan data ini mencakup data tentang produk yang dijual oleh Olist.
 * **Sellers Dataset**:-
-This dataset includes data about the sellers that fulfilled orders made at Olist. Use it to find the seller location and to identify which seller fulfilled each product.
+Kumpulan data ini mencakup data tentang penjual yang memenuhi pesanan yang dibuat di Olist. Gunakan untuk menemukan lokasi penjual dan untuk mengidentifikasi penjual mana yang memenuhi setiap produk.
 * **Category Name Translation**:-
-Translates the productcategoryname to english.
+Terjemahan dari nama kategori produk ke bahasa Inggris.
 
-**Input features**:- order_id,price,freight_value,product_photos_qty,product_weight_g etc.
+**Input features**:- price,freight_value,product_photos_qty etc.
 **Target Variable**:- review_score
