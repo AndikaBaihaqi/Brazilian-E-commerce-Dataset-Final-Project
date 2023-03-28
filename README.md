@@ -1,4 +1,4 @@
-# Brazilian-E-commerce-Dataset-Final-Project
+# Brazilian-E-commerce-Public-Dataset-by-Olist-Final-Project
 
 # Customer-Satisfaction-Prediction
 Predict customer satisfaction for an e-commerce purchase
