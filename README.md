@@ -31,7 +31,6 @@ Untuk pesanan tertentu, kita perlu memprediksi skor kepuasan pelanggan mengingat
 ### Data Overview:
 **Sumber**:- https://www.kaggle.com/olistbr/brazilian-ecommerce
 
-Skema dari pengaturan dan pengumpulan data dapat dilihat pada gambar di bawah ini:
 <img src="https://i.imgur.com/HRhd2Y0.png" />
 
 ### Data Description:
