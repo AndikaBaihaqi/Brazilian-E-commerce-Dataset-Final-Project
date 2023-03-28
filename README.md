@@ -2,7 +2,6 @@
 
 # Customer-Satisfaction-Prediction
 
-# <center>Customer Satisfaction Prediction - Brazillian e-Commerce Public Dataset</center>
 
 ## Introduction
 E-commerce adalah platform dimana penjual dapat menjual produk dan pelanggan dapat membeli produk. Itu berarti platform e-commerce menghubungkan sejumlah besar penjual ke pelanggan melalui online. Memberikan layanan yang lebih baik kepada pelanggan adalah salah satu kunci utama untuk sukses sebagai penjual e-commerce.
